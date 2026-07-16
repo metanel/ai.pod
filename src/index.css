@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Amatic+SC:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fredoka", "Assistant", "Inter", system-ui, sans-serif;
+  --font-display: "Fredoka", "Rubik", "Outfit", sans-serif;
+  --color-brand-primary: #4f46e5;
+  --color-brand-secondary: #6366f1;
+}
+
+/* Custom support for RTL animations */
+.rtl-grid {
+  direction: rtl;
+}
+
